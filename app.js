@@ -25,5 +25,6 @@ function showUser(xmlhttp){
         $('#profile .avatar').html('<img src="' + user.avatar_url + '">')
     } else {
         // show error
+        $('#profile h2').html("User not found!")
     }
 }
